@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'supadao';
+  src: url('./assets/fonts/BITSUMIS.TTF');
+  font-style: normal;
+  font-weight: normal;
+}
+
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.animate-slideOut{
+  animation: slideOut 0.5s ease-in-out;
+}
+@keyframes slideOut{
+  0%{
+    transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(0%);
+      }
+}
