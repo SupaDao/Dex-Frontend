@@ -238,7 +238,7 @@ const AddLiquidity = () => {
                   <Button variant="bordered" color="primary" className="flex space-x-2">
                     {!tokenOne.image && tokenOne.name === "Select Token" ?null : tokenOne.image && tokenOne.name !== "Select Token"  ?
                     <Image src={tokenOne.image } width={18} height={18}/> : <FaEthereum size={18}/>}
-                    <p className="uppercase font-bold">{ tokenOne.name }</p>
+                    <p className="uppercase font-bold">{ tokenOne.symbol }</p>
                   </Button>
                 </div>
                 <p className="text-small">$1.0</p>
@@ -261,7 +261,7 @@ const AddLiquidity = () => {
                   <Button variant="bordered" color="primary" className="flex space-x-2">
                     {!tokenTwo.image && tokenTwo.name === "Select Token" ?null : tokenTwo.image && tokenTwo.name !== "Select Token"  ?
                   <Image src={tokenTwo.image } width={18} height={18}/> : <FaEthereum size={18}/>}
-                  <p className="uppercase">{tokenTwo.name}</p>
+                  <p className="uppercase">{tokenTwo.symbol}</p>
                   </Button>
                 </div>
                 <p className="text-small">$1.0</p>
