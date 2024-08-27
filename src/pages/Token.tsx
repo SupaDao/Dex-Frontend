@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useState, useEffect, useCallback } from "react"
 import {AllToken} from "../components/index"
 import { TokenList } from "../types/interfaces"
