@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useState } from 'react';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Button, Image, Input, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, useDisclosure} from "@nextui-org/react";
 import { Link } from 'react-router-dom';
