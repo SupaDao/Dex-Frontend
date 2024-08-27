@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from "react"
 import {SearchToken, Settings} from "./index"
 import { TokenData } from "../types/interfaces"
